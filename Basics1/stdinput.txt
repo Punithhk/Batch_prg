@@ -1,0 +1,1 @@
+Checking stdinput to stdinput-file.txt 

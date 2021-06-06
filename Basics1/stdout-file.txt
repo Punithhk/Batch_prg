@@ -1,0 +1,1 @@
+This will redirect the stdout to a file and stderr to the same output 

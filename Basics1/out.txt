@@ -1,0 +1,19 @@
+ ::open in cmd with type 
+ Volume in drive F is Punith
+ Volume Serial Number is E4AC-0D0B
+
+ Directory of F:\Working\Batch_prg\Basics1
+
+[.]               [..]              arg.bat           cale.bat
+con.txt           deve.bat          env.bat           err.bat
+err_ck.bat        ex1.bat           ex2.bat           func.bat
+goto.bat          ibenv.bat         inp.bat           io.bat
+io2.bat           lab2.bat          label.bat         labstr.bat
+lenv.bat          modf.bat          newfile.txt       notes.doc
+out.txt           sam.bat           set.bat           sft.bat
+stderr-file.txt   stdinput.txt      stdout-file.txt   test.macro
+test.txt          v.bat             
+              32 File(s)          9,945 bytes
+               2 Dir(s)  124,625,645,568 bytes free
+Some output 
+Some more output

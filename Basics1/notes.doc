@@ -1,0 +1,25 @@
+Each one of those three predefined channels have a pre-assigned file handle (or number) associated with them:
+ •  Standard input ( stdin ) has the file number 0
+ •  Standard output ( stdout ) has the file number 1
+ •  Standard error ( stderr ) has the file number 2
+
+
+CON : This special device is associated with the console. Anything written to it goes to the screen buffer, 
+and anything read from it is interactively retrieved by waiting for user input.
+ •  NUL : This special device, as its name implies writes to
+  nowhere when it is used for output redirection and returns the E
+ redirection.
+ •  COM1 to COM9 : These devices are connected with the serial COM ports.
+ •  PRN : This device is usually associated with the printer port.
+
+
+To redirect the output, the command you type should terminate
+ with one of the following redirection symbols/syntax:
+ •  Use the “ > ” sign to redirect to a new file.
+ •  Use the double “ > ” sign like this “ >> ” to append to an existing file or
+ create a new file (if the file did not exist before) and start appending to it.
+ •  Prefix the “ > ” sign with the output file number in case you want to be explicit. 
+ By default, the “ > ” sign alone (without any output file number prefix) indicates 
+ that stdout is being redirected. This is equivalent to using “ 1> ”. To redirect the stderr , use “ 2> ”.
+ •  Use the “2>&1” syntax to have the stderr redirect to the same output
+  as stdout . If stdout was redirected to the NUL device for instance, so will stderr
